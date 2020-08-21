@@ -18,3 +18,8 @@
   yum:
     name: httpd
     state: latest
+
+- name: install python
+  yum:
+    name: python
+    state: latest
